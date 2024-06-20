@@ -1,4 +1,4 @@
-import ListGroup from "./components/ListGroup";
+import ListGroup from "./components/ListGroup/";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 
