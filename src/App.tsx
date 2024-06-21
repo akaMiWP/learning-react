@@ -1,6 +1,6 @@
 import ListGroup from "./components/ListGroup/";
 import Alert from "./components/Alert";
-import Button from "./components/Button";
+import Button from "./components/Button/Button";
 import { GiRobotAntennas } from "react-icons/gi";
 
 import { useState } from "react";
