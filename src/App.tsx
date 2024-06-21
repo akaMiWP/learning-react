@@ -1,6 +1,7 @@
 import ListGroup from "./components/ListGroup/";
 import Alert from "./components/Alert";
 import Button from "./components/Button/Button";
+import Like from "./components/Like/Like";
 import { GiRobotAntennas } from "react-icons/gi";
 
 import { useState } from "react";
@@ -26,6 +27,7 @@ function App() {
       )}
       <Button children={"Show Alert"} onClick={() => setShowAlert(true)} />
       <GiRobotAntennas color="blue" />
+      <Like />
     </div>
   );
 }
